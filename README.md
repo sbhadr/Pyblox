@@ -1,6 +1,6 @@
 # roblox.py
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Sanjay-B/roblox.py/master/LICENSE)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 
 An API wrapper for Roblox written in Python.
