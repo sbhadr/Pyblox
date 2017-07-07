@@ -1,4 +1,4 @@
-# roblox.py
+# Pyblox
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
