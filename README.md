@@ -2,6 +2,7 @@
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![Discord](https://discordapp.com/api/guilds/332692436478590986/widget.png)](https://discord.gg/EDXNdAT)
 
 An API wrapper for Roblox written in Python.
 
