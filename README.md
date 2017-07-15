@@ -44,4 +44,4 @@ haha() # Calls "haha" method
 *note: requests may have been already installed*
 
 ## Related Projects
-N/A
+https://github.com/sentanos/roblox-js
