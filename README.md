@@ -27,7 +27,7 @@ This was developed on a windows-based machine and thus, it's recommended to use 
 ## Quick Example
 
 ```py
-from roblox import * # Imports the API Wrapper 
+from pyblox import * # Imports the API Wrapper 
 
 def haha():
 	CoolPeople = Friends.friendList(1) # Gets Friends List
@@ -38,7 +38,7 @@ haha() # Calls "haha" method
 
 ## Requirements
 
-- Python 3.5+
+- Python 3+
 - ``pip install requests``
 
 *note: requests may have been already installed*
