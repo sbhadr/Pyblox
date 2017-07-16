@@ -45,3 +45,5 @@ haha() # Calls "haha" method
 
 ## Related Projects
 https://github.com/sentanos/roblox-js
+https://github.com/CrescentCode/RobloxCommunication
+https://github.com/CrescentCode/Freya
