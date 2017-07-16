@@ -27,7 +27,7 @@ This was developed on a windows-based machine and thus, it's recommended to use 
 ## Quick Example
 
 ```py
-from pyblox import * # Imports the API Wrapper 
+import pyblox # Imports the API Wrapper 
 
 def haha():
 	CoolPeople = Friends.friendList(1) # Gets Friends List
