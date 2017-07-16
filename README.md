@@ -16,10 +16,10 @@ Due to this, this repo could break at anytime. If a break does occur, please ope
 
 ## Installing
 
-To install roblox.py to your windows machine, you must do the following:
+To install Pyblox to your windows machine, you must do the following:
 ```
 1. Download or Clone this repo
-2. Place the "roblox" folder into C:\Users\YOURUSERNAMEONWINDOWSMACHINE\AppData\Local\Programs\Python\Python35-32\Lib\site-packages
+2. Place the "pyblox" folder into C:\Users\YOURUSERNAMEONWINDOWSMACHINE\AppData\Local\Programs\Python\Python35-32\Lib\site-packages
 ```
 MacOS and Linux are supported but installation will vary.
 This was developed on a windows-based machine and thus, it's recommended to use windows.
