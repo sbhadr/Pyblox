@@ -7,7 +7,11 @@
 An API wrapper for Roblox written in Python.
 
 The purpose of this API wrapper is to expose Roblox's API for third party use and/or for individual standalone projects.
-This is the first stable API wrapper for the Roblox API. If you would like to contribute, create a pull request will the changes you made. If you have a complaint, issue or problem, create an issue and I will try to answer as fast as I can. 
+This is the first stable API wrapper for the Roblox API. Documentation: http://pyblox.readthedocs.io/en/latest/
+
+Feel free to contribute to the [documentation](https://github.com/Sanjay-B/Pyblox-Docs).
+
+If you would like to contribute, create a pull request will the changes you made. If you have a complaint, issue or problem, create an issue and I will try to answer as fast as I can. 
 
 ### Updating
 
