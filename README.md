@@ -37,7 +37,7 @@ def GetAllFriends():
 	CoolPeople = Friends.friendList(1) # Gets Friends List
 	print(CoolPeople) # Returns usernames and prints them on console
 
-GetAllFriends() # Calls "haha" method
+GetAllFriends() # Calls "GetAllFriends" method
 ```
 
 ## Requirements
