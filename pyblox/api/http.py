@@ -16,8 +16,8 @@ class Http:
 		statusCode = payload.status_code
 		header = payload.headers
 		content = payload.content
-		if statusCode == 403:
-			return print("[Roblox][GET] Something went wrong. Error: 403")
+		if statusCode is not 200:
+			return print("[Roblox][GET] Something went wrong. Error: "+statusCode)
 		return content
 
 	def postRequest(url,param1,param2):
@@ -25,6 +25,6 @@ class Http:
 		statusCode = payload.status_code
 		header = payload.headers
 		content = payload.content
-		if statusCode == 403:
-			return print("[Roblox][POST] Something went wrong. Error: 403")
+		if statusCode is not 200:
+			return print("[Roblox][POST] Something went wrong. Error: "+statusCode)
 		return content
