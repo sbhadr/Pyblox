@@ -16,7 +16,7 @@ class User:
 		a = Http.sendRequest("https://www.roblox.com/UserCheck/DoesUsernameExist?username="+str(username))
 		b = a.decode("utf-8")
 		c = json.loads(b)
-		if c["Success"] == "True" or True:
+		if c["success"] == "True" or True:
 			return True
 		else:
 			return False
