@@ -31,7 +31,7 @@ class User:
 		User = lambda: None
 		User.Id = c["Id"]
 		User.Username = c["Username"]
-		User.AvatarUrl = c["AvatarUrl"]
+		User.AvatarUrl = c["AvatarUri"]
 		User.AvatarFinal = c["AvatarFinal"]
 		User.IsOnline = c["IsOnline"]
 		return User
