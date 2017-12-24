@@ -7,6 +7,7 @@
 #
 
 from .http import Http
+import json
 
 class User:
 	
