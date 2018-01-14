@@ -14,8 +14,8 @@ If you would like to contribute, create a pull request with the changes you made
 
 ### Updating
 
-The Roblox API updates whenever nessary and often the developers don't specify when or why these changes are taking place.
-Due to this, this repo could break at anytime. If a break does occur, please open up an issue on repo detailing the error.
+The Roblox API updates whenever necessary and often the developers don't specify when or why these changes are taking place.
+Due to this, this repo could break at anytime. If a break does occur, please open up an issue on this repo detailing the error.
 
 ## Installing
 
