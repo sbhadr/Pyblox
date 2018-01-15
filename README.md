@@ -30,10 +30,10 @@ This was developed on a windows-based machine and thus, it's recommended to use 
 ## Quick Example
 
 ```py
-import pyblox # Imports the API Wrapper 
+from pyblox import Friends # Imports the Friends class from pyblox wrapper 
 
 def GetAllFriends():
-	CoolPeople = Friends.friendList(1) # Gets Friends List
+	CoolPeople = Friends.friendList(1) # Gets Friends List, page 1
 	print(CoolPeople) # Returns usernames and prints them on console
 
 GetAllFriends() # Calls "GetAllFriends" method
