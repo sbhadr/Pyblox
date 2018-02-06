@@ -4,7 +4,7 @@
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![ROBLOX API Discord](https://img.shields.io/badge/discord-roblox%20api%20chat-blue.svg)](https://discord.gg/EDXNdAT)
 
-An API wrapper for Roblox written in Python.
+An API wrapper for Roblox written in Python 2.
 
 The purpose of this API wrapper is to expose Roblox's API for third party use and/or for individual standalone projects.
 This is the first stable Python API wrapper for the Roblox API. Documentation can be found within each module. I encourage
@@ -22,7 +22,7 @@ Due to this, this repo could break at anytime. If a break does occur, please ope
 To install Pyblox to your windows machine, you must do the following:
 ```
 1. Download or Clone this repo
-2. Place the "pyblox" folder into C:\Users\YOURUSERNAMEONWINDOWSMACHINE\AppData\Local\Programs\Python\Python35-32\Lib\site-packages
+2. Place the "pyblox" folder into C:\Users\YOURUSERNAMEONWINDOWSMACHINE\WHEREPYTHON2ISINSTALLED
 ```
 MacOS and Linux are supported but installation will vary.
 This was developed on a windows-based machine and thus, it's recommended to use windows.
@@ -41,11 +41,11 @@ GetAllFriends() # Calls "GetAllFriends" method
 
 ## Requirements
 
-- Python 3+
+- Python 2x
 - ``pip install requests``
 
-*note: requests may have been already installed.*
-*pyblox may be compatible with python 2x. However, it has not been tested.*
+*Note: requests may have been already installed.*
+*This version is ported to Python 2x only*
 
 ## Related Projects
 https://github.com/sentanos/roblox-js
