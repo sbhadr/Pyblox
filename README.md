@@ -20,8 +20,10 @@ The Roblox API updates whenever necessary and often the developers don't specify
 Due to this, this repo could break at anytime. If a break does occur, please open up an issue on this repo detailing the error.
 
 ## Installing
-
-To install Pyblox to your windows machine, you must do the following:
+There's now two ways to install Pyblox. 
+You may now do it through pip: 
+``pip install pyblox3``
+or do it manually below:
 ```
 1. Download or Clone this repo
 2. Place the "pyblox" folder into C:\Users\YOURUSERNAMEONWINDOWSMACHINE\AppData\Local\Programs\Python\Python35-32\Lib\site-packages
