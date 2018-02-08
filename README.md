@@ -34,7 +34,7 @@ This was developed on a windows-based machine and thus, it's recommended to use 
 ## Quick Example
 
 ```py
-from pyblox import Friends # Imports the Friends class from pyblox wrapper 
+from pyblox3 import Friends # Imports the Friends class from pyblox wrapper 
 
 def GetAllFriends():
 	CoolPeople = Friends.friendList(1) # Gets Friends List, page 1
