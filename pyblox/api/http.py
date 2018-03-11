@@ -9,26 +9,27 @@
 import json
 import requests
 
+
 class Http:
 
-	# GET Request
-	# Params: "url" // target url
-	def sendRequest(url):
-		payload = requests.get(str(url))
-		statusCode = payload.status_code
-		header = payload.headers
-		content = payload.content
-		if statusCode is not 200:
-			return print("[Pyblox][GET] Something went wrong. Error: "+statusCode)
-		return content
+    # GET Request
+    # Params: "url" // target url
+    def sendRequest(url):
+        payload = requests.get(str(url))
+        statusCode = payload.status_code
+        header = payload.headers
+        content = payload.content
+        if statusCode is not 200:
+            return print("[Pyblox][GET] Something went wrong. Error: " + statusCode)
+        return content
 
-	# POST Request
-	# Params: "url" // target url, payload // {JSON key-value pairs}
-	def postRequest(url,payload):
-		payload = requests.post(str(url), data = payload)
-		statusCode = payload.status_code
-		header = payload.headers
-		content = payload.content
-		if statusCode is not 200:
-			return print("[Pyblox][POST] Something went wrong. Error: "+statusCode)
-		return content
+    # POST Request
+    # Params: "url" // target url, payload // {JSON key-value pairs}
+    def postRequest(url, payload):
+        payload = requests.post(str(url), data=payload)
+        statusCode = payload.status_code
+        header = payload.headers
+        content = payload.content
+        if statusCode is not 200:
+            return print("[Pyblox][POST] Something went wrong. Error: " + statusCode)
+        return content
