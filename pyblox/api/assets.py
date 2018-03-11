@@ -12,8 +12,6 @@ import json
 
 class Assets:
 
-    # GET https://www.roblox.com/Game/GetAssetIdsForPackageId?packageId={assetId}
-    # Returns Table/Array
     def getPackageAssets(assetid):
         a = Http.sendRequest("https://www.roblox.com/Game/GetAssetIdsForPackageId?packageId=" + str(assetid))
         result = []
