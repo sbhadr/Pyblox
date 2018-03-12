@@ -6,10 +6,10 @@
 #  Copyright © 2017 Sanjay-B(Sanjay Bhadra). All rights reserved.
 #
 
-__title__ = 'roblox'
+__title__ = 'pyblox'
 __author__ = 'Sanjay-B'
 __license__ = 'MIT'
-__copyright__ = 'Copyright 2017 Sanjay-B(Sanjay Bhadra)'
+__copyright__ = 'Copyright 2018 Sanjay-B(Sanjay Bhadra)'
 __version__ = '0.2.4'
 
 #Parent Class Modules
