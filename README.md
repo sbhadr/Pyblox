@@ -31,6 +31,8 @@ or do it manually below:
 MacOS and Linux are supported but installation will vary.
 This was developed on a windows-based machine and thus, it's recommended to use windows.
 
+Please note that the "Clone" method is regulary updated. However, the pip-version is often behind.
+
 ## Quick Example
 
 ```py
@@ -54,7 +56,6 @@ GetAllFriends() # Calls "GetAllFriends" method
 ## Related Projects
 https://github.com/sentanos/roblox-js
 https://github.com/CrescentCode/RobloxCommunication
-https://github.com/CrescentCode/Freya
 https://github.com/NoahCristino/robloxlib
 https://github.com/winfamy/nodeblox
 https://github.com/gamenew09/RobloxAPI
