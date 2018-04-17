@@ -6,7 +6,6 @@
 #  Copyright © 2017 Sanjay-B(Sanjay Bhadra). All rights reserved.
 #
 
-import json
 import requests
 
 
@@ -17,7 +16,6 @@ class Http:
     def sendRequest(url):
         payload = requests.get(str(url))
         statusCode = payload.status_code
-        header = payload.headers
         content = payload.content
         if statusCode is not 200:
             return print("[Pyblox][GET] Something went wrong. Error: " + statusCode)
@@ -28,7 +26,6 @@ class Http:
     def postRequest(url, payload):
         payload = requests.post(str(url), data=payload)
         statusCode = payload.status_code
-        header = payload.headers
         content = payload.content
         if statusCode is not 200:
             return print("[Pyblox][POST] Something went wrong. Error: " + statusCode)
