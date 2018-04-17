@@ -51,7 +51,7 @@ GetAllFriends() # Calls "GetAllFriends" method
 - ``pip install requests``
 
 *note: requests may have been already installed.*
-*pyblox may be compatible with python 2x. However, it has not been tested.*
+*python 2x version can be found https://github.com/Sanjay-B/Pyblox/tree/python2*
 
 ## Related Projects
 https://github.com/sentanos/roblox-js
