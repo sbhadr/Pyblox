@@ -14,49 +14,9 @@ If you would like to contribute, create a pull request with the changes you made
 
 For user's wanting a Python 2x-compatible version: https://github.com/Sanjay-B/Pyblox/tree/python2
 
-### Updating
+### Disclaimer
 
-The Roblox API updates whenever necessary and often the developers don't specify when or why these changes are taking place.
-Due to this, this repo could break at anytime. If a break does occur, please open up an issue on this repo detailing the error.
+This branch hasn't been released and is in active development. Hopefully, this version will overtake the ``master`` branch. 
+This doesn't work as well as the other versions so, don't expect fantastic inner-workings. If you want to contrbute, feel free to by creating a Pull Request. Highly encouraged.  
 
-## Installing
-There's now two ways to install Pyblox. 
-You may now do it through pip: 
-``pip install pyblox3``
-or do it manually below:
-```
-1. Download or Clone this repo
-2. Place the "pyblox" folder into C:\Users\YOURUSERNAMEONWINDOWSMACHINE\AppData\Local\Programs\Python\Python35-32\Lib\site-packages
-```
-MacOS and Linux are supported but installation will vary.
-This was developed on a windows-based machine and thus, it's recommended to use windows.
 
-Please note that the "Clone" method is regulary updated. However, the pip-version is often behind.
-
-## Quick Example
-
-```py
-from pyblox3 import Friends # Imports the Friends class from pyblox wrapper 
-
-def GetAllFriends():
-	CoolPeople = Friends.friendList(1) # Takes your userid
-	print(CoolPeople) # Returns usernames and prints them on console
-
-GetAllFriends() # Calls "GetAllFriends" method
-```
-
-## Requirements
-
-- Python 3+
-- ``pip install requests``
-
-*note: requests may have been already installed.*
-*python 2x version can be found https://github.com/Sanjay-B/Pyblox/tree/python2*
-
-## Related Projects
-https://github.com/sentanos/roblox-js
-https://github.com/CrescentCode/RobloxCommunication
-https://github.com/NoahCristino/robloxlib
-https://github.com/winfamy/nodeblox
-https://github.com/gamenew09/RobloxAPI
-https://github.com/NevermoreFramework/Nevermore
