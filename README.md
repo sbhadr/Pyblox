@@ -3,6 +3,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![ROBLOX API Discord](https://img.shields.io/badge/discord-roblox%20api%20chat-blue.svg)](https://discord.gg/EDXNdAT)
+[![Downloads](http://pepy.tech/badge/pyblox3)](http://pepy.tech/project/pyblox3)
 
 An API wrapper for Roblox written in Python.
 
