@@ -33,7 +33,7 @@ This was developed on a windows-based machine and thus, it's recommended to use 
 from pyblox import Friends # Imports the Friends class from pyblox wrapper 
 
 def GetAllFriends():
-	CoolPeople = Friends.friendList(1) # Gets Friends List, page 1
+	CoolPeople = Friends.friendList(1010101) # Gets Friends List of user w/ user id #
 	print(CoolPeople) # Returns usernames and prints them on console
 
 GetAllFriends() # Calls "GetAllFriends" method
