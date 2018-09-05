@@ -5,6 +5,8 @@
 [![ROBLOX API Discord](https://img.shields.io/badge/discord-roblox%20api%20chat-blue.svg)](https://discord.gg/EDXNdAT)
 [![Downloads](http://pepy.tech/badge/pyblox3)](http://pepy.tech/project/pyblox3)
 
+**This is no longer maintained and will not recieve updates. To find the maintained/updated one, please go here: https://github.com/RbxAPI/Pyblox**
+
 An API wrapper for Roblox written in Python.
 
 The purpose of this API wrapper is to expose Roblox's API for third party use and/or for individual standalone projects.
@@ -18,7 +20,7 @@ For user's wanting a Python 2x-compatible version: https://github.com/Sanjay-B/P
 ### Updating
 
 The Roblox API updates whenever necessary and often the developers don't specify when or why these changes are taking place.
-Due to this, this repo could break at anytime. If a break does occur, please open up an issue on this repo detailing the error.
+Due to this, this repo could break at anytime. If a break does occur, please open up an issue at https://github.com/RbxAPI/Pyblox detailing the error.
 
 ## Installing
 There's now two ways to install Pyblox. 
