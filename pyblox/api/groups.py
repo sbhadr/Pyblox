@@ -41,11 +41,11 @@ class Groups:
     # GET /groups/{groupId}/allies
     # Returns Table/Array with each ally's attributes
     def getGroupAllies(groupid):
-        a = Http.sendRequest("https://api.roblox.com/groups/" + str(groupid) + "allies")
+        a = Http.sendRequest("https://api.roblox.com/groups/" + str(groupid) + "/" + "allies")
         return a
 
     # GET /groups/{groupId}/enemies
     # Returns Table/Array with each enemy's attributes
     def getGroupEnemies(groupid):
-        a = Http.sendRequest("https://api.roblox.com/groups/" + str(groupid) + "enemies")
+        a = Http.sendRequest("https://api.roblox.com/groups/" + str(groupid) + "/" + "enemies")
         return a
